@@ -25,7 +25,7 @@ jobs:
       - name: Deploy to partial sandbox
         uses: ./.github/actions/deploy-environment
         with:
-          sfdx_auth_url: ${{ secrets.SFDX_AUTH_URL_PARTIALSB }}
+          sfdx_auth_url: ${{ secrets.SFDX_AUTH_URL_PRODUCTION}}
           environmentName: ${{ github.event.inputs.environment }}
           validateOnly: ${{ github.event.inputs.validateOnly }}
 
