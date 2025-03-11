@@ -32,5 +32,14 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+	    <members>*</members>
+	    <members>Account</members>
+	    <name>CustomObject</name>
+</types>
     <version>63.0</version>
 </Package>
